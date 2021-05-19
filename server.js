@@ -30,8 +30,14 @@ app.get('/combos', function(req, res) {
 });
 
 app.get('/kill_confirms', function(req, res) {
-    res.render('landing', {
-        my_title: 'landing page',
+    res.render('pages/kill_confirms', {
+        my_title: 'kill confirms',
+    });
+});
+
+app.get('/matchups', function(req, res) {
+    res.render('pages/matchups', {
+        my_title: 'kill confirms',
     });
 });
 
