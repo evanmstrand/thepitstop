@@ -1,0 +1,87 @@
+<%- include('../partials/header') %>
+<%- include('../partials/menu') %>
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-sm text-center my-4">
+                    <img src="../img/pit.png" alt="pit">
+                </div>
+
+                <div class="col-sm">
+
+                    <div class="jumbotron text-center rounded my-5" style="background-color:rgb(255, 187, 0);">
+                        <h2 class="my-3">About</h2>
+                        <hr class="my-2">
+                        <p class="mx-4">Welcome to the Pitstop! The Table of Contents below contains most of the things you need to 
+                            get a good grasp on how Pit plays in SSBU.
+                            Additionally, please check the Resources section in the Discord, as it contains hitbox visualizations
+                            and explains the purposes of each move in Pit’s arsenal.</p>
+                        <hr class="my-2">
+                    </div>
+
+                </div>
+
+                <div class="col-sm text-center my-4">
+                    <img src="../img/darkpit.png" alt="dark pit">
+                </div>
+
+            </div>
+
+            <!--Navigation Cards-->
+
+            <div class="row">
+
+                <a class="col-sm mx-5 rounded" href="/combos" title="Table of Every Pit Combo" style="background-color:rgb(255, 187, 0);">
+                    <h3 class="text-center my-5 py-3" style="color:black; text-decoration:underline; text-decoration-color:rgb(255, 187, 0);">COMBOS</h3>     
+                </a>
+
+                <a class="col-sm mx-5 rounded" href="/kill_confirms" title="Every Kill Combo" style="background-color:rgb(255, 187, 0);">
+                    <h3 class="text-center my-5 py-3" style="color:black; text-decoration:underline; text-decoration-color:rgb(255, 187, 0);">KILL CONFIRMS</h3>
+                </a>
+                <a class="col-sm mx-5 rounded" href="/matchups" title="Matchup Charts and Guides" style="background-color:rgb(255, 187, 0);">
+                    <h3 class="text-center my-5 py-3" style="color:black; text-decoration:underline; text-decoration-color:rgb(255, 187, 0);">MATCHUPS</h3>
+                </a>
+            </div>
+        <!--Experimenting with animation cards-->
+        <!--
+
+            <div class="row my-5">
+                <a>
+                    <a class="col-sm mx-5" href="/combos" data-toggle="tooltip" data-placement="top" title="Table of Every Pit Combo">
+                        <img class="freeze1 rounded" src="../img/combos_gif.gif">
+                        <script>
+                            new Freezeframe('.freeze1',{
+                                trigger: 'hover',
+                                overlay: false
+                            });
+                        </script>
+                    </a>
+                    <a class="col-sm mx-5" href="/kill_confirms" data-toggle="tooltip" data-placement="top" title="Every Kill Combo">
+                        <img class="freeze2 rounded" src="../img/killconfirms_gif.gif">
+                        <script>
+                            new Freezeframe('.freeze2',{
+                                trigger: 'hover',
+                                overlay: false
+                            });
+                        </script>
+                    </a>
+                    <a class="col-sm mx-5" href="/matchups">
+                        <img class="freeze3 rounded" src="../img/mathups_gif.gif">
+                        <script>
+                            new Freezeframe('.freeze3',{
+                                trigger: 'hover',
+                                overlay: false
+                            });
+                        </script>
+                    </a>
+                </a>
+            </div>
+
+        -->
+
+        </div>
+
+<%- include('../partials/footer') %>
+
